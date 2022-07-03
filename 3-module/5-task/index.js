@@ -1,6 +1,4 @@
 function getMinMax(str) {
-  // ваш код...
-
   let result = str
   .split(" ")
   .map(item => +item)
@@ -11,6 +9,4 @@ function getMinMax(str) {
 
   return minmax;
  
-  }
-
-
+}
